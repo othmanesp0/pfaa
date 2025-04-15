@@ -1,13 +1,1 @@
-{
-  "builds": [
-    {
-      "src": "package.json",
-      "use": "@vercel/next",
-      "config": {
-        "installCommand": "npm install --legacy-peer-deps firebaseui @material-ui/core react-firebaseui",
-        "buildCommand": "SKIP_TESTS=true next build"
-      }
-    }
-  ],
-  "ignoreCommand": "find . -name \"*.test.jsx\" -o -name \"*.test.tsx\" | xargs rm -f"
-}
+
